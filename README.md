@@ -39,15 +39,7 @@ JWT provides a secure way of transmitting information between parties as JSON ob
 ### Database Architecture
 The database is designed using MySQL and normalized to ensure data integrity. Eight tables are utilized, including pivot tables for many-to-many relationships.
 
-- Database Tables
-users
-roles
-role_user 
-classes
-pupils_class 
-subjects
-tests
-grades
+- users, roles, role_user, classes, pupils_class , subjects, tests, grades
 
 ## Course Information
 This project was developed as part of the Databases and Web Technologies course at TU Chemnitz during the summer semester of 2021.
